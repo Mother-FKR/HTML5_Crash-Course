@@ -213,7 +213,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes
     </div>
     <div>
         <label>Email</label>
-        <input type="text" name="email" placeholder="Enter Email">
+        <input type="email" name="email" placeholder="Enter Email">
     </div>
 </form>
 ```
