@@ -22,5 +22,67 @@
   - Edge&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; #微软新推出的浏览器
 - 编辑器
   - Visual Studio Code    #推荐，有好看的界面（需装主题，我也用这个写md的，还有实时预览真的好用）
-  - Sublime Text
-  - Atom
+  - Sublime Text &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;  &nbsp; #文本编辑器，也挺全能的，跟上面的VSC差不多就是少了主题和插件
+  - Atom &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;  #一款HTML编辑软件，GitHub亲儿子？
+- 即时编辑
+  - codepen.io
+
+## [2]什么是HTML？
+- **H**yper**T**ext **M**arkup **L**anguage / 超文本**标记语言**
+  - 注意⚠️ ：标记语言不做逻辑处理，比如说运算！！！
+- `HTML` **并不是**编程语言
+- 作用：用于告诉浏览器如何构建网页
+
+### [2-1]HTML结构  
+```html
+结构解析：
+<p> Lorem ipsum dolor sit amet </p>   <!--HTML Element-->
+<p>   <!--Opening Tag / 起始标签🏷️-->
+</p>  <!--Closing Tag / 结束标签🏷️-->
+Lorem ipsum dolor sit amet   <!--Content-->
+
+Tag / 标签:
+<p>,<img>,<ul>,<br>,<title>,<section>,<li>,<hr>,<header>,
+<span>,<ol>,<tr>,<div>,<input>,<table>,<th>,<footer>,
+<article>,<td> 等等
+```
+更多关于Tag的例子和意义可前往 https://developer.mozilla.org/en-US/docs/Web/HTML/Element 查看。
+
+```html
+<!DOCTYPE html> <!--解释文档的类型-->
+```
+
+![HTML结构](image/HTML-构造.png)
+*图片截自上文所提到的视频*
+
+### [2-2]例子
+请参考HTML文件夹中的index.html
+
+## [3]Inline and Block Level Element
+- 块级元素 / Block Elemet
+  - 在页面以（方）块的形式展现
+  - 出现新的一行
+  - 占全部宽度
+  - Example:
+    - ``<div>``,``<h1>`` ~ ``<h6>``,``<p>``
+- 内联元素 / Inline Element
+  - 通常在块级元素内
+  - 不会导致本文换行
+  - 只占必要的部分宽度
+  - Example:
+    - ``<a>``,``<img>``,``<em>``,``<strong>``
+
+### [3-1]例子
+请参考HTML文件夹中的index.html
+
+## [4]Attribute / 属性
+```html
+<a href="https://google.com">Lorem</a>
+href="https://google.com" <!--attribute-->
+<a 添加attribute的位置>xxxx</a>
+```
+更多关于attribute的信息和定义可前往   
+https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes   
+或者，   
+https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes    
+查看。
