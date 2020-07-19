@@ -217,3 +217,26 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes
     </div>
 </form>
 ```
+
+#### [4-1-6]按钮例子
+具体请参考HTML文件夹中的index.html
+```html
+<button>不要点这个按钮！！！</button>
+```
+
+#### [4-1-7]图片例子
+具体请参考HTML文件夹中的index.html
+```html
+<img src="https://i.pinimg.com/564x/e5/30/27/e530275fc618551b2c83d8474021bb02.jpg" alt="网页图片">
+<img src="image/image.jpg" alt="本地图片">
+```
+
+#### [4-1-8]引用例子
+具体请参考HTML文件夹中的index.html
+```html
+<blockquote>这是一段引用。</blockquote>
+<p><abbr title="Massachusetts Institute of Technology">MIT</abbr></p>  <!--注释-->
+<p><cite>这个人贼tm厉害！</cite> By 鲁迅</p>  <!--名人名言-->
+```
+
+到此，这就是所有的内容啦，如果你想查阅更多的关于HTML5的功能，可以前往 https://developer.mozilla.org/en-US/docs/Web/HTML 进行查阅。
