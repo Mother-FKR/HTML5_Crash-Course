@@ -15,3 +15,12 @@
 - 开始之前需要的准备
 
 ## [1]开始之前的准备
+- 浏览器（有其中的一个就行）
+  - Google Chrome&nbsp; &nbsp;&nbsp; #大名鼎鼎的恰内存的浏览器（谷歌浏览器）
+  - Mozilla Firefox&nbsp; &nbsp; &nbsp; &nbsp; #火狐浏览器
+  - Safari&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;#苹果浏览器
+  - Edge&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; #微软新推出的浏览器
+- 编辑器
+  - Visual Studio Code    #推荐，有好看的界面（需装主题，我也用这个写md的，还有实时预览真的好用）
+  - Sublime Text
+  - Atom
