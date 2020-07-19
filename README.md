@@ -111,6 +111,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes
 查看。
 
 ### [4-1]例子
+#### [4-1-1]超链接例子
 具体请参考HTML文件夹中的index.html
 ```html
 <a href="https://google.com">点我即可跳转到谷歌</a> 
@@ -120,3 +121,99 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes
 图例：(从图中可以看到它们是在同一行中)
 ![Inline Element](image/InlineElement.png)
 
+#### [4-1-2]列表例子
+具体请参考HTML文件夹中的index.html
+```html
+<!-- Lists -->
+<!-- 点“.“前缀的列表 -->
+<ul>
+    <li>List Item 1</li>
+    <li>List Item 2</li>
+    <li>List Item 3</li>
+    <li>List Item 4</li>
+    <li>List Item 5</li>
+</ul>
+<!-- 数字前缀的列表 -->
+<ol>
+    <li>List Item 1</li>
+    <li>List Item 2</li>
+    <li>List Item 3</li>
+    <li>List Item 4</li>
+    <li>List Item 5</li>
+</ol>
+<!-- 因为它们都是Block Element 所以会有 Margin -->
+```
+
+#### [4-1-3]表格例子
+具体请参考HTML文件夹中的index.html
+```html
+<!-- Table -->
+<table>
+    <thead>
+        <!--Table Head(表头)-->
+        <tr>
+            <!--Table Roll(行)-->
+            <th>First Name</th> <!-- th一般会被加粗-->
+            <th>Last Name</th>
+            <th>Age</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Table Body -->
+        <tr>
+            <!-- 第一行-->
+            <td>小明</td> <!-- Table Data-->
+            <td>王</td> <!-- Table Data-->
+            <td>7</td> <!-- Table Data-->
+            <td>2333@qq.com</td> <!-- Table Data-->
+        </tr>
+        <tr>
+            <!-- 第一行-->
+            <td>小红</td> <!-- Table Data-->
+            <td>张</td> <!-- Table Data-->
+            <td>8</td> <!-- Table Data-->
+            <td>2777@qq.com</td> <!-- Table Data-->
+        </tr>
+        <tr>
+            <!-- 第一行-->
+            <td>小钢</td> <!-- Table Data-->
+            <td>李</td> <!-- Table Data-->
+            <td>9</td> <!-- Table Data-->
+            <td>2666@qq.com</td> <!-- Table Data-->
+        </tr>
+    </tbody>
+</table>
+```
+
+#### [4-1-4]空行 / 切割线 例子
+具体请参考HTML文件夹中的index.html
+```html
+<!-- 空行，不建议，建议在CSS里调整margin！！！ -->
+<br>     <!--添加一行，由于br后面是空的，所以现在为空一行-->
+<hr>     <!--添加一条分割线（横线）-->
+```
+
+#### [4-1-5]表单例子
+具体请参考HTML文件夹中的index.html
+```html
+<!-- Forms -->
+<form action="form.js" method="POST">  <!--action为将表单数据提交给xx文件进行逻辑处理，这里写的是转给form.js文件来处理，而method为提交方式，一般提交数据为POST，这样比较安全，如果选择INPUT会出现在地址栏上-->
+    <div>
+        <label>First Name</label>
+        <input type="text" name="firstname" placeholder="Enter First Name"> <!--input为输入，type为数据类型，name为数据名称，在js里会用到，placeholder里为填空栏里显示的字符-->
+    </div>
+    <div>
+        <label>Last Name</label>
+        <input type="text" name="lastname" placeholder="Enter Last Name">
+    </div>
+    <div>
+        <label>Age</label>
+        <input type="text" name="age" placeholder="Enter Age">
+    </div>
+    <div>
+        <label>Email</label>
+        <input type="text" name="email" placeholder="Enter Email">
+    </div>
+</form>
+```

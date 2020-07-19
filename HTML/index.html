@@ -1,20 +1,122 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>HTML Crash Course For Beginner</title>
-    </head>
-    <body>
-        <!-- Headings-->
-        <h1>Heading One / 标题一</h1>
-        <h2>Heading Two / 标题二</h2>
-        <h3>Heading Three / 标题三</h3>
-        <h4>Heading Four / 标题四</h4>
-        <h5>Heading Five / 标题五</h5>
-        <h6>Heading Six / 标题六</h6>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p><strong>Lorem ipsum dolor sit amet.</strong></p>     <!--strong举例(加粗)-->
-        <p><em>Lorem ipsum dolor sit amet.</em></p>             <!--em举例(斜体)-->
-        <a href="https://google.com">点我即可打开谷歌</a>          <!--超链接属性举例-->
-        <a href="https://google.com" target="_blank">点我即可从新窗口打开谷歌</a>   <!--自定义超链接举例-->
-    </body>
+  <head>
+    <title>HTML Crash Course For Beginner</title>
+  </head>
+
+  <body>
+    <!-- Headings-->
+    <h1>Heading One / 标题一</h1>
+    <h2>Heading Two / 标题二</h2>
+    <h3>Heading Three / 标题三</h3>
+    <h4>Heading Four / 标题四</h4>
+    <h5>Heading Five / 标题五</h5>
+    <h6>Heading Six / 标题六</h6>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p><strong>Lorem ipsum dolor sit amet.</strong></p>
+    <!--strong举例(加粗)-->
+    <p><em>Lorem ipsum dolor sit amet.</em></p>
+    <!--em举例(斜体)-->
+    <a href="https://google.com">点我即可打开谷歌</a>
+    <!--超链接属性举例-->
+    <a href="https://google.com" target="_blank">点我即可从新窗口打开谷歌</a>
+    <!--自定义超链接举例-->
+
+    <!-- Lists -->
+    <!-- 点“.“前缀的列表 -->
+    <ul>
+      <li>List Item 1</li>
+      <li>List Item 2</li>
+      <li>List Item 3</li>
+      <li>List Item 4</li>
+      <li>List Item 5</li>
+    </ul>
+    <!-- 数字前缀的列表 -->
+    <ol>
+      <li>List Item 1</li>
+      <li>List Item 2</li>
+      <li>List Item 3</li>
+      <li>List Item 4</li>
+      <li>List Item 5</li>
+    </ol>
+
+    <!-- Table -->
+    <table>
+      <thead>
+        <!--Table Head(表头)-->
+        <tr>
+          <!--Table Roll(行)-->
+          <th>First Name</th>
+          <!-- th一般会被加粗-->
+          <th>Last Name</th>
+          <th>Age</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Table Body -->
+        <tr>
+          <!-- 第一行-->
+          <td>小明</td>
+          <!-- Table Data-->
+          <td>王</td>
+          <!-- Table Data-->
+          <td>7</td>
+          <!-- Table Data-->
+          <td>2333@qq.com</td>
+          <!-- Table Data-->
+        </tr>
+        <tr>
+          <!-- 第一行-->
+          <td>小红</td>
+          <!-- Table Data-->
+          <td>张</td>
+          <!-- Table Data-->
+          <td>8</td>
+          <!-- Table Data-->
+          <td>2777@qq.com</td>
+          <!-- Table Data-->
+        </tr>
+        <tr>
+          <!-- 第一行-->
+          <td>小钢</td>
+          <!-- Table Data-->
+          <td>李</td>
+          <!-- Table Data-->
+          <td>9</td>
+          <!-- Table Data-->
+          <td>2666@qq.com</td>
+          <!-- Table Data-->
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- 空行，不建议，建议在CSS里调整margin！！！ -->
+    <br />
+    <!--添加一行，由于br后面是空的，所以现在为空一行-->
+    <hr />
+    <!--添加一条分割线（横线）-->
+
+    <!-- Forms -->
+    <form action="form.js" method="POST">
+      <!--action为将表单数据提交给xx文件进行逻辑处理，这里写的是转给form.js文件来处理，而method为提交方式，一般提交数据为POST，这样比较安全，如果选择INPUT会出现在地址栏上-->
+      <div>
+        <label>First Name</label>
+        <input type="text" name="firstname" placeholder="Enter First Name" />
+        <!--input为输入，type为数据类型，name为数据名称，在js里会用到，placeholder里为填空栏里显示的字符-->
+      </div>
+      <div>
+        <label>Last Name</label>
+        <input type="text" name="lastname" placeholder="Enter Last Name" />
+      </div>
+      <div>
+        <label>Age</label>
+        <input type="text" name="age" placeholder="Enter Age" />
+      </div>
+      <div>
+        <label>Email</label>
+        <input type="text" name="email" placeholder="Enter Email" />
+      </div>
+    </form>
+  </body>
 </html>
