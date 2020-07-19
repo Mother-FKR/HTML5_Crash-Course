@@ -61,19 +61,23 @@ Tag / 标签:
 ## [3]Inline and Block Level Element
 - 块级元素 / Block Elemet
   - 在页面以（方）块的形式展现
-  - 出现新的一行
+  - **出现新的一行**
   - 占全部宽度
   - Example:
     - ``<div>``,``<h1>`` ~ ``<h6>``,``<p>``
 - 内联元素 / Inline Element
-  - 通常在块级元素内
-  - 不会导致本文换行
+  - **通常在块级元素内**
+  - **不会导致本文换行**
   - 只占必要的部分宽度
   - Example:
     - ``<a>``,``<img>``,``<em>``,``<strong>``
 
 ### [3-1]例子
-请参考HTML文件夹中的index.html
+具体请参考HTML文件夹中的index.html
+```html
+<strong>这是一段加粗的字体</strong>
+<em>这是一段斜体的字体</em>
+```
 
 ## [4]Attribute / 属性
 ```html
@@ -83,6 +87,17 @@ href="https://google.com" <!--attribute-->
 ```
 更多关于attribute的信息和定义可前往   
 https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes   
-或者，   
+或者前往，   
 https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes    
 查看。
+
+### [4-1]例子
+具体请参考HTML文件夹中的index.html
+```html
+<a href="https://google.com">点我即可跳转到谷歌</a> 
+<a href="https://google.com" target="_blank">点我即可从新窗口打开谷歌</a>
+<!--因为它是Inline Element所以这两个链接是在一行中，他们并不会换行！！！--> 
+```
+图例：(从图中可以看到它们是在同一行中)
+![Inline Element](image/InlineElement.png)
+
