@@ -57,6 +57,25 @@ Tag / 标签:
 
 ### [2-2]例子
 请参考HTML文件夹中的index.html
+```html
+<!DOCTYPE html>         <!--解释文档的类型-->
+<html>                  <!--html 的 Opening Tag-->
+    <head>              <!--Head de Opening Tag-->
+        <title>HTML Crash Course For Beginner</title> <!--网页标签页的标题-->
+    </head>             <!--Head de Closing Tag-->
+    <body>              <!--body de Opening Tag-->
+        <!-- Headings-->
+        <h1>Heading One / 标题一</h1> <!--标题的Tag，包含Opening Tag和Closing Tag，下面同理-->
+        <h2>Heading Two / 标题二</h2>
+        <h3>Heading Three / 标题三</h3>
+        <h4>Heading Four / 标题四</h4>
+        <h5>Heading Five / 标题五</h5>
+        <h6>Heading Six / 标题六</h6>
+        <!--Paragraph-->
+        <p>Lorem ipsum dolor sit amet.</p>
+    </body>             <!--body de Closing Tag-->
+</html>                 <!--html de Closing Tag-->
+```
 
 ## [3]Inline and Block Level Element
 - 块级元素 / Block Elemet
